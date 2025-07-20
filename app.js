@@ -21,7 +21,7 @@ db.connect((err) => {
     if (err) {
         throw err;
     }
-    console.log('Connected to database');
+    console.log('Connected onto database');
 });
 
 app.use(express.urlencoded({ extended: false }));
